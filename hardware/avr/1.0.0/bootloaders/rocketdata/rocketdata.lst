@@ -1653,31 +1653,31 @@
  1770               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 rocketdata.c
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:2      *ABS*:0000003f __SREG__
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:3      *ABS*:0000003e __SP_H__
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:4      *ABS*:0000003d __SP_L__
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:5      *ABS*:00000034 __CCP__
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:19     .text.StartSketch:00000000 StartSketch
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:59     .text.__vector_17:00000000 __vector_17
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1642   .bss:00000000 TxLEDPulse
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1648   .bss:00000002 RxLEDPulse
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1660   .bss:00000006 resetTimeout
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1654   .bss:00000004 Timeout
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:154    .text.FetchNextCommandByte:00000000 FetchNextCommandByte
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:215    .text.WriteNextResponseByte:00000000 WriteNextResponseByte
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:287    .text.CDC_Task:00000000 CDC_Task
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1683   .bss:00000009 CurrAddress
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1281   .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1675   .data:0000000c LineEncoding
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1357   .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1395   .text.main:00000000 main
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:2      *ABS*:0000003f __SREG__
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:3      *ABS*:0000003e __SP_H__
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:4      *ABS*:0000003d __SP_L__
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:5      *ABS*:00000034 __CCP__
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:19     .text.StartSketch:00000000 StartSketch
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:59     .text.__vector_17:00000000 __vector_17
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1642   .bss:00000000 TxLEDPulse
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1648   .bss:00000002 RxLEDPulse
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1660   .bss:00000006 resetTimeout
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1654   .bss:00000004 Timeout
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:154    .text.FetchNextCommandByte:00000000 FetchNextCommandByte
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:215    .text.WriteNextResponseByte:00000000 WriteNextResponseByte
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:287    .text.CDC_Task:00000000 CDC_Task
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1683   .bss:00000009 CurrAddress
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1281   .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1675   .data:0000000c LineEncoding
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1357   .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1395   .text.main:00000000 main
                              .bss:00000008 sketchPresent
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1666   .data:00000009 bootKey
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1686   .data:00000013 RunBootloader
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1666   .data:00000009 bootKey
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1686   .data:00000013 RunBootloader
                             *COM*:00000002 LLEDPulse
-C:\Users\regis\AppData\Local\Temp/ccoCJWYl.s:1671   .data:0000000a bootKeyPtr
+C:\Users\regis\AppData\Local\Temp/ccXkNYMp.s:1671   .data:0000000a bootKeyPtr
 
 UNDEFINED SYMBOLS
 __eerd_byte_m32u4

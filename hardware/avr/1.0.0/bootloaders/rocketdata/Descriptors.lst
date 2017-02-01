@@ -105,7 +105,7 @@
  116 0006 00        		.byte	0
  117 0007 08        		.byte	8
  118 0008 4123      		.word	9025
- 119 000a 1292      		.word	-28142
+ 119 000a 4000      		.word	64
  120 000c 0100      		.word	1
  121 000e 02        		.byte	2
  122 000f 01        		.byte	1
@@ -179,18 +179,18 @@
  196               	ProductString:
  197 0054 1E        		.byte	30
  198 0055 03        		.byte	3
- 199 0056 5200      		.string	"R"
- 200 0058 6F00      		.string	"o"
- 201 005a 6300      		.string	"c"
- 202 005c 6B00      		.string	"k"
- 203 005e 6500      		.string	"e"
- 204 0060 7400      		.string	"t"
- 205 0062 4400      		.string	"D"
- 206 0064 6100      		.string	"a"
- 207 0066 7400      		.string	"t"
+ 199 0056 5500      		.string	"U"
+ 200 0058 5300      		.string	"S"
+ 201 005a 4200      		.string	"B"
+ 202 005c 2000      		.string	" "
+ 203 005e 4900      		.string	"I"
+ 204 0060 4F00      		.string	"O"
+ 205 0062 2000      		.string	" "
+ 206 0064 6200      		.string	"b"
+ 207 0066 6F00      		.string	"o"
  208 0068 6100      		.string	"a"
- 209 006a 2000      		.string	" "
- 210 006c 2000      		.string	" "
+ 209 006a 7200      		.string	"r"
+ 210 006c 6400      		.string	"d"
  211 006e 2000      		.string	" "
  212 0070 2000      		.string	" "
  213 0072 00        		.string	""
@@ -224,18 +224,18 @@
  267               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 Descriptors.c
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:2      *ABS*:0000003f __SREG__
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:3      *ABS*:0000003e __SP_H__
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:4      *ABS*:0000003d __SP_L__
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:5      *ABS*:00000034 __CCP__
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:19     .text.CALLBACK_USB_GetDescriptor:00000000 CALLBACK_USB_GetDescriptor
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:110    .data:00000000 DeviceDescriptor
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:128    .data:00000012 ConfigurationDescriptor
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:189    .data:00000050 LanguageString
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:196    .data:00000054 ProductString
-C:\Users\regis\AppData\Local\Temp/ccbNW5Bc.s:218    .data:00000074 ManufNameString
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:2      *ABS*:0000003f __SREG__
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:3      *ABS*:0000003e __SP_H__
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:4      *ABS*:0000003d __SP_L__
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:5      *ABS*:00000034 __CCP__
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:19     .text.CALLBACK_USB_GetDescriptor:00000000 CALLBACK_USB_GetDescriptor
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:110    .data:00000000 DeviceDescriptor
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:128    .data:00000012 ConfigurationDescriptor
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:189    .data:00000050 LanguageString
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:196    .data:00000054 ProductString
+C:\Users\regis\AppData\Local\Temp/cc9wq4RR.s:218    .data:00000074 ManufNameString
 
 UNDEFINED SYMBOLS
 __do_copy_data

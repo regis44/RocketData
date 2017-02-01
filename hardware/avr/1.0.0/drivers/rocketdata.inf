@@ -32,7 +32,7 @@ DriverPackageDisplayName="ROcketData USB Driver"
 ManufacturerName="RocketData Project"
 ServiceName="ROcketData Driver"
 rocketdata.bootloader.name="RocketData Bootloader"
-rocketdata.sketch.name="ROcketData"
+rocketdata.sketch.name="RocketData"
 
 [DefaultInstall]
 CopyINF=arduino.inf
@@ -54,16 +54,16 @@ FakeModemCopyFileSection=12
 DefaultDestDir=12
 
 [DeviceList]
-%rocketdata.bootloader.name%=DriverInstall, USB\VID_2341&PID_9212
-%rocketdata.sketch.name%=DriverInstall, USB\VID_2341&PID_9213&MI_00
+%rocketdata.bootloader.name%=DriverInstall, USB\VID_2341&PID_0040
+%rocketdata.sketch.name%=DriverInstall, USB\VID_2341&PID_0040&MI_00
 
 [DeviceList.NTamd64]
-%rocketdata.bootloader.name%=DriverInstall, USB\VID_2341&PID_9212
-%rocketdata.sketch.name%=DriverInstall, USB\VID_2341&PID_9213&MI_00
+%rocketdata.bootloader.name%=DriverInstall, USB\VID_2341&PID_0040
+%rocketdata.sketch.name%=DriverInstall, USB\VID_2341&PID_0040&MI_00
 
 [DeviceList.NTia64]
-%rocketdata.bootloader.name%=DriverInstall, USB\VID_2341&PID_9212
-%rocketdata.sketch.name%=DriverInstall, USB\VID_2341&PID_9213&MI_00
+%rocketdata.bootloader.name%=DriverInstall, USB\VID_2343&PID_0040
+%rocketdata.sketch.name%=DriverInstall, USB\VID_2341&PID_0040&MI_00
 
 [DriverInstall]
 include=mdmcpq.inf,usb.inf

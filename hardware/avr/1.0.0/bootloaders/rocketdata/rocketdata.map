@@ -676,7 +676,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .debug_abbrev  0x00000df8      0x15d LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
  .debug_abbrev  0x00000f55      0x1e7 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
 
-.debug_line     0x00000000     0x414b
+.debug_line     0x00000000     0x410d
  *(.debug_line)
  .debug_line    0x00000000      0xa69 rocketdata.o
  .debug_line    0x00000a69      0x196 Descriptors.o
@@ -689,11 +689,11 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .debug_line    0x000019be     0x17dd LUFA-111009/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
  .debug_line    0x0000319b       0x24 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
  .debug_line    0x000031bf      0x24a LUFA-111009/LUFA/Drivers/USB/Core/ConfigDescriptor.o
- .debug_line    0x00003409      0x50f LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
- .debug_line    0x00003918       0x86 LUFA-111009/LUFA/Drivers/USB/Core/Events.o
- .debug_line    0x0000399e       0x24 LUFA-111009/LUFA/Drivers/USB/Core/HostStandardReq.o
- .debug_line    0x000039c2      0x1dc LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
- .debug_line    0x00003b9e      0x5ad LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_line    0x00003409      0x4f0 LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_line    0x000038f9       0x86 LUFA-111009/LUFA/Drivers/USB/Core/Events.o
+ .debug_line    0x0000397f       0x24 LUFA-111009/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_line    0x000039a3      0x1bd LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_line    0x00003b60      0x5ad LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
 
 .debug_frame    0x00000000      0x410
  *(.debug_frame)
@@ -710,7 +710,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .debug_frame   0x000003a0       0x20 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
  .debug_frame   0x000003c0       0x50 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
 
-.debug_str      0x00000000     0x210c
+.debug_str      0x00000000     0x20a7
  *(.debug_str)
  .debug_str     0x00000000      0x5f0 rocketdata.o
                                 0x675 (size before relaxing)
@@ -728,13 +728,13 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
                                 0x779 (size before relaxing)
  .debug_str     0x000015ba      0x222 LUFA-111009/LUFA/Drivers/USB/Core/ConfigDescriptor.o
                                 0x328 (size before relaxing)
- .debug_str     0x000017dc      0x3ef LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_str     0x000017dc      0x38a LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
                                 0x689 (size before relaxing)
- .debug_str     0x00001bcb       0x3a LUFA-111009/LUFA/Drivers/USB/Core/Events.o
+ .debug_str     0x00001b66       0x3a LUFA-111009/LUFA/Drivers/USB/Core/Events.o
                                 0x112 (size before relaxing)
- .debug_str     0x00001c05       0x70 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_str     0x00001ba0       0x70 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
                                 0x2a2 (size before relaxing)
- .debug_str     0x00001c75      0x497 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_str     0x00001c10      0x497 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
                                 0x600 (size before relaxing)
 
 .debug_loc      0x00000000     0x2942
