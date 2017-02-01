@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "BreizhPipe",
+          "name": "RocketData",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
@@ -37,6 +37,8 @@
             }
           ]
         }
+       ],
+      "tools": []
     }
   ]
 }
