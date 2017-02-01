@@ -1,38 +1,38 @@
-# BreizhPipe board Configuration 
+# RocketData board Configuration 
 
 menu.cpu=Processor
 
 ################################################################################
-################################## BreizhPipe ##################################
+################################## ROcketData ##################################
 ################################################################################
-breizhpipe.name=BreizhPipe
+rocketdata.name=RocketData
 
-breizhpipe.upload.tool=avrdude
-breizhpipe.upload.protocol=avr109
-breizhpipe.upload.maximum_size=28672
-breizhpipe.upload.maximum_data_size=2560
-breizhpipe.upload.speed=57600
-breizhpipe.upload.disable_flushing=true
-breizhpipe.upload.use_1200bps_touch=true
-breizhpipe.upload.wait_for_upload_port=true
+rocketdata.upload.tool=avrdude
+rocketdata.upload.protocol=avr109
+rocketdata.upload.maximum_size=28672
+rocketdata.upload.maximum_data_size=2560
+rocketdata.upload.speed=57600
+rocketdata.upload.disable_flushing=true
+rocketdata.upload.use_1200bps_touch=true
+rocketdata.upload.wait_for_upload_port=true
 
-breizhpipe.bootloader.tool=avrdude
-breizhpipe.bootloader.unlock_bits=0x3F
-breizhpipe.bootloader.lock_bits=0x2F
-breizhpipe.bootloader.low_fuses=0xFF
-breizhpipe.bootloader.high_fuses=0xD8
-breizhpipe.bootloader.extended_fuses=0xCB
-breizhpipe.bootloader.file=breizhpipe/breizhpipe.hex
+rocketdata.bootloader.tool=avrdude
+rocketdata.bootloader.unlock_bits=0x3F
+rocketdata.bootloader.lock_bits=0x2F
+rocketdata.bootloader.low_fuses=0xFF
+rocketdata.bootloader.high_fuses=0xD8
+rocketdata.bootloader.extended_fuses=0xCB
+rocketdata.bootloader.file=rocketdata/rocketdata.hex
 
-breizhpipe.build.mcu=atmega32u4
-breizhpipe.build.f_cpu=16000000L
-breizhpipe.build.vid=0x2341
-breizhpipe.build.pid.0=0x9210
-breizhpipe.build.pid.1=0x9211
-breizhpipe.build.pid=0x9211
-breizhpipe.build.usb_product="Breizh Pipe"
-breizhpipe.build.board=AVR_BreizhPipe
-breizhpipe.build.core=arduino:arduino
-breizhpipe.build.variant=breizhpipe
-breizhpipe.build.extra_flags={build.usb_flags}
+rocketdata.build.mcu=atmega32u4
+rocketdata.build.f_cpu=16000000L
+rocketdata.build.vid=0x2341
+rocketdata.build.pid.0=0x9210
+rocketdata.build.pid.1=0x9211
+rocketdata.build.pid=0x9211
+rocketdata.build.usb_product="Breizh Pipe"
+rocketdata.build.board=AVR_rocketdata
+rocketdata.build.core=arduino:arduino
+rocketdata.build.variant=rocketdata
+rocketdata.build.extra_flags={build.usb_flags}
 
