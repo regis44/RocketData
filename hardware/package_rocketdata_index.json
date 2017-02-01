@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/regis44/RocketData/raw/master/hardware/rocketdata-1.0.0.tar.gz",
           "archiveFileName": "rocketdata-1.0.0.tar.gz",
-          "checksum": "SHA-256:4bb32b8a3c073f09261fc1fcce90cc79aced409fdac32b7b8d55be470f8097c9",
-          "size": "4258871",
+          "checksum": "SHA-256:48fe80de62de2a72630e2f1c5f769d6771b0e11201bc2d08242684b61303cb79",
+          "size": "4038630",
           "boards": [
             {"name": "RocketData"}
           ],
